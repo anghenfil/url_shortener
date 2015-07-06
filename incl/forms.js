@@ -1,0 +1,3 @@
+function shortform() {
+	$("#urltoshort").hide();
+      }
