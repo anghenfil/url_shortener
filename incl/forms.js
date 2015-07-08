@@ -1,3 +1,3 @@
 function shortform() {
-	$("#urltoshort").hide();
+	$("#urltoshort").;
       }

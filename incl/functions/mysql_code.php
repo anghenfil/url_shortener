@@ -49,7 +49,8 @@ class mysql_code{
 		$stmt->execute();
 		//For Debugging: echo var_export($stmt->errorInfo());
 		$short_url = SITE_URL.'/s/'.$string_f_db;
-		echo'Shorten URL: <a href="'.$short_url.'">'.$short_url.'</a>';	
+		//echo'Shorten URL: <a href="'.$short_url.'">'.$short_url.'</a>';	
+		return $short_url;
 	}
 	function is_in_db($url_to_check){
 		$server = 'mysql:dbname='.DB.';host='.HOST;

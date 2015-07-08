@@ -1,0 +1,25 @@
+.shortform{
+
+}.shortform_url{
+	float: left;
+	line-height: 45px;
+	width: 600px;
+	font-size: 30px;
+	border-radius: 7px;
+	border-color: grey;
+	outline: 0 none;	
+}.shortform_submit{
+	margin-left: 5px;
+	font-size: 20px;
+	border-radius: 7px;
+	border-color: grey;
+	background-color: #FFFFFF;
+	line-height: 45px;
+	width: 100px;
+}.shortform_text{
+	display:inline;
+	font-size: 30px;
+	margin: 2px;
+}.shortform_reset{
+	display:inline;
+}
