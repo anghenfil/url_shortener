@@ -1,4 +1,17 @@
+*{
+margin: 0px;
+padding: 0px;
+width: 100%;
+background-color: #E6E6E6;
+overflow: hidden;
+}
 .shortform{
+width: 709px;
+position: relative;
+top: 100px;
+left: 50%;
+margin-left: -355px;
+height: 200px;
 
 }.shortform_url{
 	float: left;
@@ -7,13 +20,16 @@
 	font-size: 30px;
 	border-radius: 7px;
 	border-color: grey;
-	outline: 0 none;	
+	outline: 0 none;
+	background-color: #FFFFFF;
+	border-style: groove;	
 }.shortform_submit{
 	margin-left: 5px;
 	font-size: 20px;
 	border-radius: 7px;
 	border-color: grey;
-	background-color: #FFFFFF;
+	border-style: groove;
+	background-color: #FFFFFF;	
 	line-height: 45px;
 	width: 100px;
 }.shortform_text{
@@ -22,4 +38,11 @@
 	margin: 2px;
 }.shortform_reset{
 	display:inline;
+}h2.header{
+font-size: 40px;
+}#footer{
+	position: absolute;
+	height: 20px;
+	bottom: 0px;
+	padding: 5px;
 }

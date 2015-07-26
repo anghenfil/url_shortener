@@ -13,3 +13,6 @@ if(!defined("SC")){
 	<script type="text/javascript" src="incl/forms.js"></script>
 </head>
 <body>
+<div id="header">
+<h2 class="header"><?php echo SITE_HEADING ?></h2>
+</div>
