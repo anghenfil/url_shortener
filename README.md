@@ -6,6 +6,6 @@ Its completly javascript free.
 
 INFORMATION: If you use Nginx instead of Apache2 you must write this line(s) in your nginx configuration file:
 
-location /s { \n
-rewrite ^/s/(.*)$ /index.php?site=$1; \n
-} \
+location /s {
+rewrite ^/s/(.*)$ /index.php?site=$1;
+}
